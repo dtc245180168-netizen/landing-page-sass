@@ -1,0 +1,12 @@
+// Định nghĩa Breakpoints cho Responsive
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px
+);
+
+// Cấu hình Grid System
+$grid-columns: 12;
+$container-max-width: 1200px;
+$grid-gutter: 30px; // Tổng khoảng cách giữa các cột (15px mỗi bên)
