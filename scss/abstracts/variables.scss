@@ -1,12 +1,16 @@
-// Định nghĩa Breakpoints cho Responsive
-$breakpoints: (
-  'sm': 576px,
-  'md': 768px,
-  'lg': 992px,
-  'xl': 1200px
-);
+// Màu sắc chủ đạo của Landing Page
+$primary-color: #ff6b6b;
+$secondary-color: #2c3e50;
+$dark-color: #333333;
+$light-color: #f8f9fa;
+$white: #ffffff;
+$gray: #7f8c8d;
+$border-color: #e0e0e0;
 
-// Cấu hình Grid System
-$grid-columns: 12;
-$container-max-width: 1200px;
-$grid-gutter: 30px; // Tổng khoảng cách giữa các cột (15px mỗi bên)
+// Kiểu chữ
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-size-base: 16px;
+
+// Kích thước & Khoảng cách
+$container-width: 1200px;
+$spacing-unit: 20px;

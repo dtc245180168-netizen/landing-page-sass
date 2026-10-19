@@ -1,11 +1,16 @@
-// 1. Abstracts (Biến, Mixins)
+// 1. Abstracts
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-// 2. Base (Reset, Typography)
+// 2. Base
 @import "base/reset";
 
-// 3. Layout (Container, Row, Grid System)
-@import "layout/container";
-@import "layout/row";
-@import "layout/grid";
+// 3. Components
+@import "components/buttons";
+@import "components/cards";
+
+// 4. Layout
+@import "layout/header";
+@import "layout/products";
+@import "layout/stats";
+@import "layout/footer";
